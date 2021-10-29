@@ -25,7 +25,12 @@
     "eject": "react-scripts eject",
     "lint": "eslint . --ext .ts",
     "lint:fix": "eslint . --ext .ts --fix",
-    "prettier-format": "prettier --config .prettierrc 'src/**/*.ts' --write"
+    "prettier:format": "prettier --config .prettierrc 'src/**/*.ts' --write"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run prettier:format && npm run lint"
+    }
   },
   "eslintConfig": {
     "extends": [
@@ -49,6 +54,7 @@
     "@types/styled-components": "^5.1.15",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-prettier": "^4.0.0",
+    "husky": "^7.0.4",
     "prettier": "^2.4.1"
   }
 }
