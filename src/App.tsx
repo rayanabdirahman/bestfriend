@@ -1,4 +1,5 @@
 import React from 'react';
+import "@fontsource/poppins"; 
 
 function App() {
   return (
