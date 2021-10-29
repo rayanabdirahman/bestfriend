@@ -1,12 +1,14 @@
 import React from 'react';
 import '@fontsource/poppins';
+import '@fontsource/poppins/600.css';
+import '@fontsource/poppins/700.css';
+import Navbar from './components/Navbar';
 
 function App(): JSX.Element {
   return (
-    <>
-      <h1>Hello world</h1>
-      <p>hello world</p>
-    </>
+    <React.Fragment>
+      <Navbar />
+    </React.Fragment>
   );
 }
 

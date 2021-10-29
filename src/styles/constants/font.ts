@@ -1,6 +1,7 @@
 const weight = {
-  regular: 500,
-  bold: 600
+  regular: 400,
+  medium: 600,
+  bold: 700
 };
 
 const font = {
