@@ -1,11 +1,11 @@
 import React from 'react';
-import "@fontsource/poppins"; 
+import '@fontsource/poppins';
 
-function App() {
+function App(): JSX.Element {
   return (
     <>
-  <h1>Hello world</h1>
-  <p>hello world</p>
+      <h1>Hello world</h1>
+      <p>hello world</p>
     </>
   );
 }

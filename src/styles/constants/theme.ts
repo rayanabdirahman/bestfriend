@@ -1,9 +1,9 @@
-import colours from "./colours";
-import font from "./font";
+import colours from './colours';
+import font from './font';
 
 const theme = {
   color: colours,
-  font,
+  font
 };
 
 export default theme;
